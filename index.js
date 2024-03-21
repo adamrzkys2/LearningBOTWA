@@ -41,7 +41,7 @@ const currentHours = currentDate.getHours();
 const currentMinutes = currentDate.getMinutes();
 
 const openai = new OpenAI({
-    apiKey: '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',
+    apiKey: 'your_api_key',
 })
 const staticPathSpotify = path.join(__dirname, 'public/music');
 const staticPathTiktok = path.join(__dirname, 'public/tiktok');
